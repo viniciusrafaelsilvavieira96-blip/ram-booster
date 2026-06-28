@@ -25,7 +25,7 @@ jobs:
           gradle-version: 8.7
 
       - name: Generate Wrapper
-        run: gradle wrapper --gradle-version 8.7
+        run: gradle wrapper --gradle-version 8
 
       - name: Build APK
         run: ./gradlew assembleDebug
